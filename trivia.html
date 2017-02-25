@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" type="text/css" href=css/"reset.css"> -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  	<link rel="stylesheet" type="text/css"  href="assets/css/style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+  	<title>Austin Trivia</title>
+  </head>
+
+<body>
+  <div class="container">
+  <div class="row">
+  		<div class="col-md-12 col-xs-12 text-center">
+        <div class=box>
+        <h1>Austin Trivia!!</h1>
+      </div>
+      </div>
+  	</div>
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12 col-xs-12 text-center">
+          <div class = "timer">
+              <h3>Time Remaining: <span></span></h3>
+          </div>
+
+        </div>
+      </div>
+
+
+<form id = "quiz" name = "quiz">
+
+
+      <div class="container">
+    <div class="row">
+        <div class="col-md-12 col-xs-12 text-center">
+
+            <h3>How many bats reside in Austin in the Spring?</h3>
+
+      <input type="radio" id="mc" name = "question1" value = "200,000">200,000<br>
+
+
+      <input type="radio" id="mc" name = "question1" value = "750,000">750,000<br>
+
+
+      <input type="radio" id="mc" name = "question1" value = "2 million">2 million<br>
+
+</div>
+</div>
+</div>
+
+
+
+      <div class="container">
+    <div class="row">
+
+            <div class="col-md-12 col-xs-12 text-center">
+                <h3>What food defines Austin?</h3>
+
+                <label class="radio-inline">
+        <input type="radio" id="mc" name = "question2" value="Hamburgers">Hamburgers<br>
+      </label>
+                <label class="radio-inline">
+        <input type="radio" id="mc" name = "question2" value="Tacos">Tacos<br>
+      </label>
+                <label class="radio-inline">
+        <input type="radio" id="mc" name = "question2" value="Soybeans">Soybeans<br>
+
+      </label>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-xs-12 text-center">
+                <h3>Austin boasts the highest annual ______ sales??</h3>
+
+                    <label class="radio-inline">
+          <input type="radio" id = "mc" name="question3" value = "Pet">Pet<br>
+        </label>
+                    <label class="radio-inline">
+          <input type="radio" id = "mc" name="question3" value = "Bookstore">Bookstore<br>
+        </label>
+                    <label class="radio-inline">
+          <input type="radio"  id = "mc" name="question3" value = "Recreational Boat">Recreational Boat<br>
+        </label>
+
+<br>
+<br>
+<input id = "button"  type = "button"  value = "I'm finished!" onclick = "check();">
+
+                </form>
+            </div>
+        </div>
+
+<div id = "after_submit">
+  <p id = "message"></p>
+  <p id = "number_correct"></p>
+</div>
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="./assets/javascript/trivia.js"></script>
+
+        </body>
+
+        </html>

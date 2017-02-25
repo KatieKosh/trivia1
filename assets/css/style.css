@@ -1,0 +1,51 @@
+body{
+
+
+
+    border: 30px;
+    border-style: solid;
+    border-color: #ffff66;
+    background-image: url("/Users/kathrynkoshinski/ut-coding-bootcamp/trivia/weather/weather.png");
+    color:  blue;
+
+}
+
+
+.box {
+  border: 5px solid #ff69b4;
+height: 200px;
+background-color: #ffff66;
+width: 800px;
+margin-left: 200px;
+}
+
+
+h1 {
+
+
+    padding-top: 30px;
+    font-family: 'Rock Salt', cursive;
+    color: blue;
+    font-size: 65px;
+}
+
+h3
+{
+  font-family: 'Rock Salt', cursive;
+  color: blue;
+  font-size:  30px;
+
+}
+
+
+.row
+
+{
+padding-top: 40px;
+padding-bottom:  40px;
+}
+
+#after_submit {
+visibility: hidden;
+
+}
