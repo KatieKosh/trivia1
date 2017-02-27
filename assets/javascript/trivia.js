@@ -1,8 +1,7 @@
 
 
 var timer = 30;
-
-
+var timerReset = 0;
 
 $(document).ready(function() {
   myinterval = setInterval(function cd () {
@@ -19,11 +18,43 @@ function handleEndTimer() {
   console.log("handle end of timer here");
 }
 
-// $(#button).onclick(){
-//
-// }
+$("#button").click(function() {
+
+  clearInterval(myinterval);
+
+      
+});
+
+
 
 });
+
+
+
+
+
+
+
+
+
+
+
+//function handleEndTimer() {
+//   clearInterval(myinterval);
+//   console.log("handle end of timer here");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
